@@ -1,16 +1,13 @@
 # amdgpu-pro-opencl-installer
-AMD OpenCL installer scripts for Linux. These scripts install AMD's "legacy" (non-ROCm) OpenCL components alongside the open source amdgpu stack. These scripts are adapted for OpenSUSE and Fedora from the ['opencl-amd' Arch Linux package](https://aur.archlinux.org/packages/opencl-amd/). 
+AMD OpenCL installer scripts for Linux. These scripts install AMD's "headless" OpenCL components alongside the open source amdgpu stack. These scripts are adapted for OpenSUSE and Fedora from the ['opencl-amd' Arch Linux package](https://aur.archlinux.org/packages/opencl-amd/), and are also adapted from the repo I forked from.
 
 ## Assumptions
 
-**This is not for Vega based hardware**. Please see [ROCm](https://github.com/RadeonOpenCompute/ROCm) for Vega 56, Vega 64, and Vega Frontier Edition GPUs. 
-
-A recent AMD GPU derived from their [GCN architecture](https://en.wikipedia.org/wiki/Graphics_Core_Next) is required. 
+A recent AMD GPU is required. 
 
 [amdgpu_opencl_install.sh](/amdgpu_opencl_install.sh) has been tested against the following 64 bit rpm based distributions: 
 
- * OpenSUSE Tumbleweed
- * Fedora 27
+ * OpenSUSE Tumbleweed (as of February 3, 2021)
  
 ## Prerequisites 
 
