@@ -1,4 +1,6 @@
 # amdgpu-pro-opencl-installer
+_Disclaimer_: **Here be dragons, this is unsupported and will make your install UNSUPPORTED.**
+
 AMD OpenCL installer scripts for Linux. These scripts install AMD's "headless" OpenCL components alongside the open source amdgpu stack. These scripts are adapted for OpenSUSE and Fedora from the ['opencl-amd' Arch Linux package](https://aur.archlinux.org/packages/opencl-amd/), and are also adapted from the repo I forked from.
 
 ## Assumptions
